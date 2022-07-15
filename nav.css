@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.b-c {
+    background-color: rgb(136, 228, 196);
+    height: 150px;
+}
+
+li {
+    display: inline;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+.cr {
+    clear: right;
+}
+
+.cl {
+    clear:left
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.up {
+    padding-top: 1%;
+}
+
+.up-left-div {
+    padding-left: 5%;
+  
+}
+
+.up-right-div {
+  padding-right: 5%;
+}
+
+
+.search-box {
+    max-width: 1200px;
+}
+
+input  {
+    width: 60%;
+    height: 40px;
+}
+
+.down {
+    padding-top: 5%;
+    padding-left: 23%;
+}
