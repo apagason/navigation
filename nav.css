@@ -4,12 +4,22 @@
     padding: 0%;
 }
 .b-c {
-    background-color: rgb(136, 228, 196);
+    background-color: rgb(255, 69, 97);
     height: 150px;
 }
 
 li {
     display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+img {
+    width: 80px;
 }
 
 .float-l {
@@ -19,18 +29,16 @@ li {
 .float-r {
     float: right;
 }
+
+.float {
+    float: ;
+}
 .cr {
     clear: right;
 }
 
 .cl {
     clear:left
-}
-
-li a {
-    text-decoration: none;
-    color: black;
-    margin: 5px;
 }
 
 .up {
@@ -48,15 +56,56 @@ li a {
 
 
 .search-box {
-    max-width: 1200px;
+  max-width: 1200%;
 }
 
 input  {
-    width: 60%;
-    height: 40px;
+  width: 70%;
+  height: 40px;
+  border-radius: 8px;
+
 }
 
 .down {
-    padding-top: 5%;
-    padding-left: 23%;
+    width: 70%;
+  /* background-color: aquamarine; */
+  margin-top: 3%; 
+  margin-left: 13%;
+  /* margin-right: 5%; */
+  /* height: 100px; */
+
 }
+
+.logo {
+    margin-left: 0%;
+    width: 50px;
+}
+
+.search-div {
+    width: 50%;
+    float: left;
+}
+
+.s-button {
+    /* float: right; */
+    padding: 9px 10px;
+    /* margin-top: 0px; */
+    /* margin-right: 139px; */
+    background: rgb(241, 2, 81);
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 7%;
+}
+.d-list {
+    margin-top: 1%;
+}
+
+#shopping-cart {
+    margin-top: -1%;
+    margin-right: 3%;
+    width: 73px;
+}
+
