@@ -77,7 +77,8 @@ input  {
 }
 
 .logo {
-    margin-left: 0%;
+    margin-right: 7%;
+    margin-bottom: 2%;
     width: 50px;
 }
 
@@ -105,7 +106,7 @@ input  {
 
 #shopping-cart {
     margin-top: -1%;
-    margin-right: 3%;
+    margin-right: -2%;
     width: 73px;
 }
 
